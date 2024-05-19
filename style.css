@@ -1,42 +1,60 @@
-h1{
-    color: aquamarine; font-family: monospace
+h1 {
+  color: grey;
+  font-family: monospace;
 }
 
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 1px solid black;
-    padding-left: 0;
-    padding-right: 0;
-    gap: 10px;
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  padding-left: 0;
+  padding-right: 0;
+  gap: 10px;
 }
 
-.li-in{
-    outline: solid green 1px;
-    flex-basis: calc(50% - 10px);
-    list-style: none;
-    height: 250px;
+.li-in {
+  outline: solid green 1px;
+  flex-basis: calc(50% - 10px);
+  list-style: none;
+  height: 250px;
 }
 
-.l-1{
-background-image: linear-gradient(to top, blue , green, red, yellow);
+.l-1 {
+  background-image: linear-gradient(to top, blue, green, red, yellow);
 }
-.l-2{
-    background-image: linear-gradient(to left, green , red, yellow, blue);
+.l-2 {
+  background-color: radial-gradient(
+      -45deg,
+      #f44336,
+      #f44336 25px,
+      #00b9ff,
+      #00b9ff 50px
+  );
 }
-.l-3{
-    background-image: linear-gradient(to bottom,grey, purple, orange, lime );
+.l-3 {
+  background-image: repeating-linear-gradient(
+    to top right,
+    #f3a,
+    #f3a 25px,
+    #fe1122,
+    #fe1122 50px
+  );
 }
-.l-4{
-    background-image: linear-gradient(to right, blue , green, red, yellow);
-}
-
-body{
-    background-image: linear-gradient(to right,     #f44336 15%,
+.l-4 {
+  background-image: radial-gradient(
+    circle at center,
+    #f44336 15%,
+    #09792b 15%,
     #09792b 40%,
+    #00b9ff 40%,
     #00b9ff 65%,
-    #ffb800 50% );
+    #ffb800 65%
+  );
+}
 
+.section{
+    box-shadow: 5px 5px 45px 30px red;
+    font-size: 20px;
 }

@@ -1,3 +1,34 @@
 h1{
     color: aquamarine; font-family: monospace
 }
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 10px;
+}
+
+.li-in{
+    outline: solid green 1px;
+    flex-basis: calc(50% - 10px);
+    list-style: none;
+    height: 250px;
+}
+
+.l-1{
+background-image: linear-gradient(to top, blue , green, red, yellow);
+}
+.l-2{
+    background-image: linear-gradient(to left, green , red, yellow, blue);
+}
+.l-3{
+    background-image: linear-gradient(to bottom,grey, purple, orange, lime );
+}
+.l-4{
+    background-image: linear-gradient(to right, blue , green, red, yellow);
+}
